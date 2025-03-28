@@ -155,9 +155,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="src\Private\Math\Math.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\DigitalMath.h" />
+    <ClInclude Include="src\Public\Math\DigitalMath.h" />
+    <ClInclude Include="src\Public\Math\Math.h" />
+    <ClInclude Include="src\Public\Math\Vector3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
